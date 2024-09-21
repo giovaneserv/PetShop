@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Amigo Cão</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<style>
+    .banner {
+        height: 70vh;
+        background-image: url(./multimidia/anime-index.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-bottom: 5px solid;
+    }
+    .produtos{
+        background-color: #3460FA;
+    }
+    .produtos table {
+        color: black;
+        width: 600px;
+        margin: 50px auto 30px;
+        text-align: center;
+        border-collapse: collapse
+    }
+
+    th,
+    td {
+        border-color: #999;
+        border-style: solid;
+        border-width: 5px;
+        padding: 5px;
+    }
+
+    .produtos tr:hover {
+        background-color: #feff76;
+    }
+</style>
+
+<body class="bg-secondary text-light">
+    <header class="bg-danger  border-bottom border-5">
+        <h1 class="text-center display-2">Meu Amigo cão</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">QUEM SOMOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">PRODUTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">BANHO E TOSA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="banner">
+        <h1 class="text-center">O melhor para seu amigo</h1>
+        <figure class="mt-5 d-flex justify-content-around">
+
+            <img class="" src="multimidia/anuncio1.jpg" alt="Brincando com a bolinha">
+            <img class="" src="multimidia/anuncio2.jpg" alt="Esquentar os pés">
+            <img class="" src="multimidia/anuncio3.jpg" alt="">
+
+        </figure>
+    </div>
+    <main class="container">
+        <section class="bg-">
+            <h1 class="text-center display-4">Quem Somos</h1>
+            <h2 class="text-center display-4">Animais bem cuidados. Donos mais felizes.</h2>
+            <div class="d-flex">
+                <img class="col-3 border border-5" src="multimidia/meuamigocao.jpg" alt="">
+                <div class="ms-5">
+                    <p class="display-6 border-bottom border-5">Na Meu amigo cão, o nosso sucesso como uma organização é
+                        conduzida pelo cuidado que temos com nossos
+                        animais.</p>
+                    <p class="display-6">Nossas decisões e comportamentos são guiados por nossos valores</p>
+                    <p class="display-6">Animais bem cuidados. Donos mais felizes.</p>
+                </div>
+            </div>
+        </section>
+        <section class="produtos mt-5 ">
+            <h1 class="text-center">Produtos</h1>
+
+            <table> <!-- tabela -->
+ 
+                <tr>
+                    <th>Parte</th>
+                    <th colspan="2">Marca</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Pequeno</td>
+                    <td>Vestibulum</td>
+                    <td>
+                        <img src="multimidia/pq_emb_pequeno1.png" alt="ração cão pequeno">
+                    </td>
+                    <td> R$ 5,00</td>
+                </tr>
+                <tr>
+                    <td>Nunc</td>
+                    <td>
+                        <img src="multimidia/pq_emb_pequeno2.png" alt="ração cão pequeno">
+                    </td>
+                    <td>R$ 4,00</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Médio</td>
+                    <td>Mollis</td>
+                    <td>
+                        <img src="multimidia/pq_emb_medio1.png" alt="ração cão médio">
+                    </td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Portittor</td>
+                    <td><img src="multimidia/pq_emb_medio2.png" alt="ração cão médio"></td>
+                    <td>R$ 3,90</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Grande</td>
+                    <td>Lacinia</td>
+                    <td><img src="multimidia/pq_emb_grande1.png" alt="ração cão grande"></td>
+                    <td>R$ 6,90</td>
+                </tr>
+                <tr>
+                    <td>Sapien</td>
+                    <td><img src="multimidia/pq_emb_grande2.png" alt="ração cão grande"></td>
+                    <td>R$ 3,90</td>
+                </tr>
+                <tr>
+                    <td colspan="4">consulte nossos preços para gandes quantidades</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <form action="">
+            <fieldset>
+                <legend>Identificação do dono do cachorro</legend>
+                <p>
+                    <label for="nome">Nome</label>
+                    <input type="text" size="40" name="name" placeholder="Digite o nome completo do dono do cachorro">
+                </p>
+                <p>
+                    <label for="endereço">Endereço:</label>
+                    <input type="text" size="40" name="endereço" placeholder="Digite o seu endereço">
+                </p>
+                <p>
+                    <label for="text">CEP:</label>
+                    <input type="text" size="40" name="CEP" placeholder="XXXXXXXXX">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" size="40" name="email" placeholder="Digite seu email">
+                </p>
+                <p>
+                    <lable for="tel">CEL/TEL:</lable>
+                    <input type="tel" size="40" name="tel" placeholder="Digite seu número de telefone">
+                </p>
+            </fieldset>
+            <p>
+
+            </p>
+
+            </form>
+
+            <form action="">
+                <fieldset>
+                    <legend>Animal</legend>
+                    <p>
+                        <label for="nome">Nome</label><br>
+                        <input type="text" name="nome" value="" placeholder="Digite o nome do cão" size="20"
+                            maxlength="40">
+                    </p>
+                    <p>
+                        <label for="">Porte do cão:</label>
+                        <input type="radio" name="porte_animal" value="animal_pq" checked>
+                        <label for="pequeno">pequeno</label>
+                        <input type="radio" name="porte_animal" value="animal_md">
+                        <label for="médio">médio</label>
+                        <input type="radio" name="porte_animal" value="animal_gd">
+                        <label for="grande">grande</label>
+                    </p>
+
+                    <p>
+                        <label for="">Tipo de Tosa:</label>
+                        <select name="opcoes">
+                            <option value="">Selecione...</Selecione>
+                            </option>
+                            <option value="Tosa_Padrão">Tosa Padrão</option>
+                            <option value="Tosa_Higienica">Tosa Higiênica</option>
+                            <option value="Tosa_na_Tesoura">Tosa na Tesoura</option>
+                            <option value="Tosa_na_Raca">Tosa na Raça</option>
+                            <option value="Tosa_Bebe">Tosa Bebê</option>
+                        </select> <br>
+                        <label for="">Observações</label>
+                        <textarea name="observacoes" id="" cols="40" rows="5"
+                            placeholder="Digite algumas informações sobre o seu animal"></textarea>
+                    </p>
+                </fieldset>
+
+            </form>
+            <form action="">
+                <fieldset>
+
+                    <legend>Horáio - (Não atendemos de domingo a segunda)</legend>
+
+                    <label for="data">Indique os dias da semana de sua preferência:</label><br>
+                    <input type="checkbox" name="3" id="">
+                    <label for="">Terça-feira</label>
+                    <input type="checkbox" name="4" id="">
+                    <label for="">Quarta-feira</label>
+                    <input type="checkbox" name="5" id="">
+                    <label for="">Quinta-feria</label>
+                    <input type="checkbox" name="6" id="">
+                    <label for="">Sexta-feria</label>
+                    <input type="checkbox" name="s" id="">
+                    <label for="">Sábado</label>
+
+
+                    <p>
+                        <label for="">Primeira opção de horário</label>
+                        <input type="time" name="" id="" placeholder="dd//mm//aaaa">
+                    </p>
+                    <p> <label for="">Segunda opção de horário</label>
+                        <input type="time" name="" id="" placeholder="dd//mm//aaaa">
+                    </p>
+                </fieldset>
+        </section>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
